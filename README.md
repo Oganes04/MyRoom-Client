@@ -1,7 +1,7 @@
 <br/>
 <p align="center">
-  <a href="#" style="text-decoration: none;color:#000;>
-     <p>MyRoom</p>
+  <a href="#">
+     <h1>MyRoom</h1>
   </a>
 
   <h2 align="center">
