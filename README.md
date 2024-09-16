@@ -1,7 +1,7 @@
 <br/>
 <p align="center">
   <a href="#">
-     <h1>MyRoom</h1>
+     <h1 style="text-align: center;">MyRoom</h1>
   </a>
 
   <h2 align="center">
