@@ -1,5 +1,8 @@
-const App = () => {
-  return <div>12</div>;
-};
+import PWABadge from "./PWABadge";
+import "./App.css";
+
+function App() {
+  return <PWABadge />;
+}
 
 export default App;
