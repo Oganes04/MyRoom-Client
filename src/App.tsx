@@ -1,8 +1,13 @@
+import { Box, Typography } from "@mui/material";
 import PWABadge from "./PWABadge";
-import "./App.css";
 
 function App() {
-  return <PWABadge />;
+  return (
+    <Box>
+      <PWABadge />
+      <Typography variant="CardTitle">Привет, мир!</Typography>
+    </Box>
+  );
 }
 
 export default App;
