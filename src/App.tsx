@@ -5,7 +5,7 @@ function App() {
   return (
     <Box>
       <PWABadge />
-      <Typography variant="CardTitle">Привет, мир!</Typography>
+      <Typography variant="CardTitle">MyRoom</Typography>
     </Box>
   );
 }

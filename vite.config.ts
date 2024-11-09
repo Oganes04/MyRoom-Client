@@ -5,7 +5,7 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react(), VitePWA({
-    registerType: 'prompt',
+    registerType: 'autoUpdate', // Автоматическая регистрация service worker
     injectRegister: false,
 
     pwaAssets: {
@@ -18,6 +18,7 @@ export default defineConfig({
       short_name: 'MyRoom',
       description: 'client',
       theme_color: '#ffffff',
+      display: "fullscreen"
     },
 
     workbox: {
@@ -27,7 +28,7 @@ export default defineConfig({
     },
 
     devOptions: {
-      enabled: false,
+      enabled: true, // Включить поддержку PWA в режиме разработки
       navigateFallback: 'index.html',
       suppressWarnings: true,
       type: 'module',
