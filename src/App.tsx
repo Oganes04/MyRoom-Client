@@ -1,11 +1,16 @@
-import { Box, Typography } from "@mui/material";
+import { Box } from "@mui/material";
 import PWABadge from "./PWABadge";
+import MyRoomCounter from "./components/MyRoomCounter";
 
 function App() {
   return (
     <Box>
       <PWABadge />
-      <Typography variant="CardTitle">Привет, мир!</Typography>
+      <MyRoomCounter
+        onCounterChange={(count: number) => {
+          console.log(count);
+        }}
+      />
     </Box>
   );
 }

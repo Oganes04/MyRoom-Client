@@ -3,27 +3,27 @@ import "@mui/material/styles";
 declare module "@mui/material/styles" {
   interface Palette {
     general: {
-      primary: string;
+      background: string;
       secondary: string;
       text: string;
       white: string;
       error: string;
-      orange: string;
+      inwork: string;
       success: string;
-      active: string;
+      process: string;
     };
   }
 
   interface PaletteOptions {
     general: {
-      primary: string;
+      background: string;
       secondary: string;
       text: string;
       white: string;
       error: string;
-      orange: string;
+      inwork: string;
       success: string;
-      active: string;
+      process: string;
     };
   }
 
