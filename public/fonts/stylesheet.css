@@ -1,0 +1,230 @@
+@font-face {
+    font-family: 'TT Firs Text Trial';
+    src: url('TTFirsTextTrial-Blk.woff2') format('woff2'),
+        url('TTFirsTextTrial-Blk.woff') format('woff'),
+        url('TTFirsTextTrial-Blk.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Firs Text Trial';
+    src: url('TTFirsTextTrial-Bd.woff2') format('woff2'),
+        url('TTFirsTextTrial-Bd.woff') format('woff'),
+        url('TTFirsTextTrial-Bd.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Firs Text Trial';
+    src: url('TTFirsTextTrial-BlkIt.woff2') format('woff2'),
+        url('TTFirsTextTrial-BlkIt.woff') format('woff'),
+        url('TTFirsTextTrial-BlkIt.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Firs Text Trial';
+    src: url('TTFirsTextTrial-BdIt.woff2') format('woff2'),
+        url('TTFirsTextTrial-BdIt.woff') format('woff'),
+        url('TTFirsTextTrial-BdIt.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Firs Text Trial';
+    src: url('TTFirsTextTrial-DmBd.woff2') format('woff2'),
+        url('TTFirsTextTrial-DmBd.woff') format('woff'),
+        url('TTFirsTextTrial-DmBd.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Firs Text Trial';
+    src: url('TTFirsTextTrial-DmBdIt.woff2') format('woff2'),
+        url('TTFirsTextTrial-DmBdIt.woff') format('woff'),
+        url('TTFirsTextTrial-DmBdIt.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Firs Text Trial ExtraBlack';
+    src: url('TTFirsTextTrial-XBlk.woff2') format('woff2'),
+        url('TTFirsTextTrial-XBlk.woff') format('woff'),
+        url('TTFirsTextTrial-XBlk.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Firs Text Trial ExtraBlack';
+    src: url('TTFirsTextTrial-XBlkIt.woff2') format('woff2'),
+        url('TTFirsTextTrial-XBlkIt.woff') format('woff'),
+        url('TTFirsTextTrial-XBlkIt.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Firs Text Trial';
+    src: url('TTFirsTextTrial-XBd.woff2') format('woff2'),
+        url('TTFirsTextTrial-XBd.woff') format('woff'),
+        url('TTFirsTextTrial-XBd.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Firs Text Trial';
+    src: url('TTFirsTextTrial-XBdIt.woff2') format('woff2'),
+        url('TTFirsTextTrial-XBdIt.woff') format('woff'),
+        url('TTFirsTextTrial-XBdIt.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Firs Text Trial';
+    src: url('TTFirsTextTrial-It.woff2') format('woff2'),
+        url('TTFirsTextTrial-It.woff') format('woff'),
+        url('TTFirsTextTrial-It.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Firs Text Trial';
+    src: url('TTFirsTextTrial-XLt.woff2') format('woff2'),
+        url('TTFirsTextTrial-XLt.woff') format('woff'),
+        url('TTFirsTextTrial-XLt.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Firs Text Trial';
+    src: url('TTFirsTextTrial-XLtIt.woff2') format('woff2'),
+        url('TTFirsTextTrial-XLtIt.woff') format('woff'),
+        url('TTFirsTextTrial-XLtIt.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Firs Text Trial';
+    src: url('TTFirsTextTrial-Lt.woff2') format('woff2'),
+        url('TTFirsTextTrial-Lt.woff') format('woff'),
+        url('TTFirsTextTrial-Lt.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Firs Text Trial';
+    src: url('TTFirsTextTrial-Md.woff2') format('woff2'),
+        url('TTFirsTextTrial-Md.woff') format('woff'),
+        url('TTFirsTextTrial-Md.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Firs Text Trial';
+    src: url('TTFirsTextTrial-LtIt.woff2') format('woff2'),
+        url('TTFirsTextTrial-LtIt.woff') format('woff'),
+        url('TTFirsTextTrial-LtIt.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Firs Text Trial Normal';
+    src: url('TTFirsTextTrial-Nm.woff2') format('woff2'),
+        url('TTFirsTextTrial-Nm.woff') format('woff'),
+        url('TTFirsTextTrial-Nm.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Firs Text Trial';
+    src: url('TTFirsTextTrial-MdIt.woff2') format('woff2'),
+        url('TTFirsTextTrial-MdIt.woff') format('woff'),
+        url('TTFirsTextTrial-MdIt.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Firs Text Trial';
+    src: url('TTFirsTextTrial-Rg.woff2') format('woff2'),
+        url('TTFirsTextTrial-Rg.woff') format('woff'),
+        url('TTFirsTextTrial-Rg.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Firs Text Trial';
+    src: url('TTFirsTextTrial-Th.woff2') format('woff2'),
+        url('TTFirsTextTrial-Th.woff') format('woff'),
+        url('TTFirsTextTrial-Th.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Firs Text Trial Normal';
+    src: url('TTFirsTextTrial-NmIt.woff2') format('woff2'),
+        url('TTFirsTextTrial-NmIt.woff') format('woff'),
+        url('TTFirsTextTrial-NmIt.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Firs Text Trial';
+    src: url('TTFirsTextTrial-ThIt.woff2') format('woff2'),
+        url('TTFirsTextTrial-ThIt.woff') format('woff'),
+        url('TTFirsTextTrial-ThIt.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Firs Text Trial Variable';
+    src: url('TTFirsTextTrialVariable.woff2') format('woff2'),
+        url('TTFirsTextTrialVariable.woff') format('woff'),
+        url('TTFirsTextTrialVariable.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
