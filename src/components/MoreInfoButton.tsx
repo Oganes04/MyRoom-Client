@@ -1,19 +1,24 @@
 import { FC } from "react";
 import ECategory from "../enums/enums";
-import ArraowIcon from "../svg/ArrowIcon";
+import ArrowIcon from "../svg/ArrowIcon";
 import { CircleButtonWrapper } from "./style";
 
 interface Props {
+  onClick: () => void;
   category: keyof typeof ECategory;
 }
 
-const MoreInfoButton: FC<Props> = ({ category }) => {
+const MoreInfoButton: FC<Props> = ({ category, onClick }) => {
+  const handleClick = () => {
+    onClick();
+  };
   return (
     <CircleButtonWrapper
       width={ECategory[category]}
       height={ECategory[category]}
+      onClick={handleClick}
     >
-      <ArraowIcon />
+      <ArrowIcon />
     </CircleButtonWrapper>
   );
 };

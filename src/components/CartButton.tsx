@@ -4,12 +4,22 @@ import { ButtonCounterWrapper, CircleButtonWrapper } from "./style";
 import CartIcon from "../svg/CartIcon";
 
 interface Props {
+  onClick: () => void;
   itemsCount?: number;
 }
 
-const CartButton: FC<Props> = ({ itemsCount }) => {
+const CartButton: FC<Props> = ({ itemsCount, onClick }) => {
+  const handleClick = () => {
+    onClick();
+  };
+
   return (
-    <CircleButtonWrapper width="70px" height="70px" position="relative">
+    <CircleButtonWrapper
+      width="70px"
+      height="70px"
+      position="relative"
+      onClick={handleClick}
+    >
       <CartIcon />
       {itemsCount ? (
         <ButtonCounterWrapper>

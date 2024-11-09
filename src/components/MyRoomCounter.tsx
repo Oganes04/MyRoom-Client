@@ -2,7 +2,7 @@ import { Box, Typography } from "@mui/material";
 import AddIcon from "@mui/icons-material/Add";
 import HorizontalRuleIcon from "@mui/icons-material/HorizontalRule";
 import { FC, useEffect, useState } from "react";
-import CounterWrapper from "./style";
+import { CounterWrapper } from "./style";
 
 interface Props {
   onCounterChange: (count: number) => void;
