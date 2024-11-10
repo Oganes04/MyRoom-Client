@@ -1,27 +1,27 @@
 import { createTheme } from "@mui/material";
 
 const colors = {
-  primary: "#F9F9F9",
+  background: "#F9F9F9",
   secondary: "#232323",
   text: "#232323",
   white: "#FFFFFF",
   error: "#F91D1D",
-  orange: "#F99724",
+  inwork: "#F99724",
   success: "#31C137",
-  active: "#036FED",
+  process: "#036FED",
 };
 
 const theme = createTheme({
   palette: {
     general: {
-      primary: colors.primary,
+      background: colors.background,
       secondary: colors.secondary,
       text: colors.text,
       white: colors.white,
       error: colors.error,
-      orange: colors.orange,
+      inwork: colors.inwork,
       success: colors.success,
-      active: colors.active,
+      process: colors.process,
     },
   },
   typography: {
